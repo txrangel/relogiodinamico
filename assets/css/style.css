@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Agdasima&display=swap');
+
+:root {
+    --primary-color-bg:     #db25ffda;
+    --secondary-color-bg:   #2925ffda;
+    --color-bg-div:         rgba(0,0,0, .9);
+    --color-text-div:       #e2e1ff;
+    --shadow-relogio:       rgba(0, 0, 0, .5);
+    --shadow-div:           rgba(0, 0, 0, .7);
+}
+
+* {
+    margin:         0;
+    padding:        0;
+    font-family:    'Agdasima', sans-serif;
+}
+
+body{
+    height:             100vh;
+    background:         linear-gradient(120deg, var(--primary-color-bg), var(--secondary-color-bg));
+    display:            flex;
+    align-items:        center;
+    justify-content:    center;
+    flex-direction:     column;
+}
+
+.container{
+    height:         max-content;
+    width:          550px;
+    background:     transparent;
+    border-radius:  3px;
+    box-shadow:     5px 10px 10px var(--shadow-relogio);
+    max-width:      100%;
+    padding:        10px;
+}
+
+.data{
+    display:            flex;
+    align-items:        center;
+    justify-content:    space-around;
+    margin-top:         10px;
+}
+
+.data div{
+    background:         var(--color-bg-div);
+    color:              var(--color-text-div);
+    box-shadow:         3px 3px 9px var(--shadow-div);
+    height:             80%;
+    display:            flex;
+    flex-direction:     column;
+    align-items:        center;
+    justify-content:    center;
+    border-radius:      9px;
+    letter-spacing:     2px;
+}
+
+.data span{
+    font-size:      30px;
+    padding-left:   5px;
+    padding-right:  5px;
+}
+
+.relogio{
+    display:            flex;
+    align-items:        center;
+    justify-content:    space-around;
+    margin-top:         10px;
+}
+
+.relogio div{
+    background:         var(--color-bg-div);
+    color:              var(--color-text-div);
+    box-shadow:         3px 3px 9px var(--shadow-div);
+    height:             80%;
+    width:              30%;
+    display:            flex;
+    flex-direction:     column;
+    align-items:        center;
+    justify-content:    center;
+    border-radius:      9px;
+    letter-spacing:     2px;
+}
+
+.relogio span{
+    font-size: 100px;
+}
+
+.relogio span.descricao{
+    font-size:      30px;
+    padding-left:   5px;
+    padding-right:  5px;
+}
+
+.localizacao{
+    display:            flex;
+    align-items:        center;
+    justify-content:    space-around;
+    margin-top:         10px;
+}
+
+.localizacao div{
+    background:         var(--color-bg-div);
+    color:              var(--color-text-div);
+    box-shadow:         3px 3px 9px var(--shadow-div);
+    height:             80%;
+    width:              90%;
+    display:            flex;
+    align-items:        center;
+    justify-content:    center;
+    border-radius:      9px;
+    letter-spacing:     2px;
+}
+
+.localizacao span{
+    font-size:      30px;
+    padding-left:   5px;
+    padding-right:  5px;
+}
